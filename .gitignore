@@ -3,15 +3,3 @@
 
 #But not in 'app' folder
 !app
-app/*
-!app/src
-app/src/*
-!app/src/main
-app/src/main/*
-!app/src/main/java
-app/src/main/java/com/revbase/composemediaquery/*
-
-
-#Except These
-!app\src\main\java\com\revbase\composemediaquery\Dimensions.kt
-!app\src\main\java\com\revbase\composemediaquery\MediaQueryExtForModifier.kt
