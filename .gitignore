@@ -1,5 +1,21 @@
-#Ignore Everything
-*
+#Ignore everything in the root except the "app" folder
+/*
+!.gitignore
+!app/
 
-#But not in 'app' folder
-!app
+#Ignore everything in the "app" folder except the "src"
+app/*
+!app/src/
+
+#Ignore everything in the "src" except the "main"
+app/src/*
+!app/src/main/
+
+#Ignore everything in the "main" except the "java"
+app/src/main/*
+!app/src/main/java/
+
+#Ignore everything in target file subdirectories except target files
+app/src/main/java/com/revbase/composemediaquery/*
+!app/src/main/java/com/revbase/composemediaquery/Dimensions.kt
+!app/src/main/java/com/revbase/composemediaquery/MediaQueryExtForModifier.kt
