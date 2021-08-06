@@ -2,5 +2,5 @@
 *
 
 #Except These
-!app/src/main/java/com/revbase/composemediaquery/Dimensions.kt
-!app/src/main/java/com/revbase/composemediaquery/MediaQueryExtForModifier.kt
+!*/app/src/main/java/com/revbase/composemediaquery/Dimensions.kt
+!*/app/src/main/java/com/revbase/composemediaquery/MediaQueryExtForModifier.kt
